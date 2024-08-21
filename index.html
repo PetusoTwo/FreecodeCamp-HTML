@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto 01</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">
+        Proyecto 01 | Certificacion
+    </h1>
+    <p id="description">
+        Pequeño proyecto para la certificación de FreeCodeCamp
+    </p>
+    <form action="" id="survey-form">
+        <label id="name-label" for="name">Name
+            <input type="text" required placeholder="Enter your name" id="name">
+        </label>
+        <label for="email" id="email-label">Email
+            <input type="email" required placeholder="Enter your email" id="email">
+        </label>
+        <label for="number" id="number-label">Age
+            <input type="number" required placeholder="Age" id="number" min="17" max="120">
+        </label>
+        <label for="dropdown"> Cual es tu rol:
+        <select name="" id="dropdown">
+            <option value="0">Student</option>
+            <option value="1">Teacher</option>
+            <option value="2">Manager</option>
+            <option value="3">Director</option>
+            <option value="4">Engineer</option>
+            <option value="5">Designer</option>
+        </select>
+        </label>
+        <label for="opinion">
+            Que tal te parecio el proyecto:
+            <label for="">
+                <input type="radio" name="opinion" value="bueno"> Bueno
+            </label>
+            <label for="">    
+                <input type="radio" name="opinion" value="malo"> Malo
+            </label>    
+            <label for="">    
+                <input type="radio" name="opinion" value="regular"> Regular
+            </label>
+        </label>
+        <label for="">
+            Cual lenguaje de programacion es tu favorito?
+            <label for="">
+                <input type="checkbox" name="lenguaje" value="html"> HTML
+                <input type="checkbox" name="lenguaje" value="css"> CSS
+                <input type="checkbox" name="lenguaje" value="javascript"> JavaScript
+                <input type="checkbox" name="lenguaje" value="php"> PHP
+                <input type="checkbox" name="lenguaje" value="python"> Python
+                <input type="checkbox" name="lenguaje" value="c++"> C++
+                <input type="checkbox" name="lenguaje" value="java"> Java
+                <input type="checkbox" name="lenguaje" value="ruby"> Ruby
+                <input type="checkbox" name="lenguaje" value="kotlin"> Kotlin
+                <input type="checkbox" name="lenguaje" value="go"> Go
+            </label>
+        </label>
+        <label for="comment">
+            Cuentanos sobre tu experiencia:
+            <textarea name="comment" id="comment" cols="50" rows="5"></textarea>
+        </label>
+        <input type="submit" id="submit" value="Submit">
+    </form>
+</body>
+</html>
